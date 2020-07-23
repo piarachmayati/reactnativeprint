@@ -1,0 +1,5 @@
+rootProject.name = 'testPrint'
+include ':@leesiongchan_react-native-esc-pos'
+project(':@leesiongchan_react-native-esc-pos').projectDir = new File(rootProject.projectDir, '../node_modules/@leesiongchan/react-native-esc-pos/android')
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
