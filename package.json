@@ -12,7 +12,7 @@
   "dependencies": {
     "@leesiongchan/react-native-esc-pos": "^0.8.0",
     "react": "16.13.1",
-    "react-native": "0.63.2"
+    "react-native": "0.64.1"
   },
   "devDependencies": {
     "@babel/core": "7.10.5",
